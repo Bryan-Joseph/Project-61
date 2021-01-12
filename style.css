@@ -1,0 +1,101 @@
+#sec1 {
+	background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+	text-align: center;
+	background-repeat: no-repeat;
+	
+
+}
+
+i{
+	height: 30px;
+}
+
+#img1 {
+	border-radius: 100%;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+h1 {
+	text-shadow: 2px 2px #FFEBEE;
+	font-size: 20px;
+	font-size: 30px;
+}
+.menu{
+	list-style: none;
+	position: fixed;
+	line-height: 50px;
+	
+	right: 10px;
+	z-index: 10;
+	cursor: pointer;
+}
+.links{
+	display: inline;
+	float: left;
+	color: currentColor;
+	padding: 0px 30px;
+	font-size: 30px;
+	
+}
+#nar{
+	font-family: 'Yellowtail', cursive;
+}
+#sec2{
+	background-color: pink;
+	text-align: center;
+}
+#reviews{
+	background-color: lightgreen;
+	text-align: center;
+}
+iframe {
+	margin: 30px;
+}
+.links a {
+	color: aliceblue ! important;
+	transition-duration: 0.2s;
+	text-decoration: none ! important;
+}
+
+.img img{
+	transition-duration: 0.2s;
+}
+
+.img img:hover{
+	transform: scale(0.9);
+	cursor: pointer;
+}
+
+#inspiration {
+	background-color: lightpink;
+	text-align: center;
+}
+
+#contact {
+	background-color: lightslategray;
+	text-align: center;
+}
+
+
+.links:hover{
+	background-color: dodgerblue;
+	background: black;
+}
+
+#contact a{
+	color: white ! important;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.img{
+	margin: 50px
+}
